@@ -10,10 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
+   
     
     
     @IBAction func show1(sender: UIButton) {
@@ -34,7 +31,7 @@ class ViewController: UIViewController {
     
     @IBAction func show2(sender: UIButton) {
 
-    let alertController = UIAlertController(title: "Your Superhero is...", message: "Wonder Woman", preferredStyle: UIAlertController.Style.alert)
+    let alertController = UIAlertController(title: "Your Superhero is...", message: "Captain Marvel", preferredStyle: UIAlertController.Style.alert)
     
     alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
     
@@ -46,10 +43,25 @@ class ViewController: UIViewController {
     
     @IBAction func show3(sender: UIButton) {
         
-        let alertController = UIAlertController(title: "Your Superhero is...", message: "Captain Marvel", preferredStyle: UIAlertController.Style.alert)
+        let alertController = UIAlertController(title: "Your Superhero is...", message: "Wonder Woman", preferredStyle: UIAlertController.Style.alert)
         
     alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
         
         present(alertController, animated: true, completion: nil)
+    }
+    
+    let emojis = ["🥀" : "dark rose", "🌸" : "pink flower", "⚡️" : "lightning rod"]
+   
+    @IBAction func showMessage(sender: UIButton) {
+        _ = sender.titleLabel?.text
+        
+        // the rest of your code from Iteration 1
+    }
+    
+    
+    override func viewDidLoad() {
+            super.viewDidLoad()
+            // Do any additional setup after loading the view.
+    
     }
 }

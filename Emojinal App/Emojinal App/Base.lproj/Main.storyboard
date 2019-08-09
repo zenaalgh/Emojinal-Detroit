@@ -35,7 +35,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="69"/>
                                 <state key="normal" title="⚡️"/>
                                 <connections>
-                                    <action selector="show2WithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="95C-zV-JbF"/>
+                                    <action selector="show2WithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8b3-MD-nny"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QOo-AR-PiQ">
@@ -43,7 +43,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="69"/>
                                 <state key="normal" title="🌸"/>
                                 <connections>
-                                    <action selector="show3WithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vjl-V4-kPE"/>
+                                    <action selector="show3WithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZPM-ue-JAf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Z3-ym-tXc">
