@@ -34,13 +34,16 @@
                                 <rect key="frame" x="264" y="348" width="74" height="95"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="69"/>
                                 <state key="normal" title="⚡️"/>
+                                <connections>
+                                    <action selector="show2WithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="95C-zV-JbF"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QOo-AR-PiQ">
                                 <rect key="frame" x="170" y="485" width="74" height="95"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="69"/>
                                 <state key="normal" title="🌸"/>
                                 <connections>
-                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="89V-1h-4IV"/>
+                                    <action selector="show3WithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vjl-V4-kPE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Z3-ym-tXc">
@@ -48,7 +51,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="69"/>
                                 <state key="normal" title="🥀"/>
                                 <connections>
-                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ga8-OE-z1J"/>
+                                    <action selector="show1WithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="saK-Wk-GRG"/>
                                 </connections>
                             </button>
                         </subviews>

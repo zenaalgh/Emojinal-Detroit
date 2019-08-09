@@ -6,16 +6,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Emojinal App/ViewController.swift"
-            timestampString = "586989688.526781"
+            timestampString = "587053833.70446"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "showMessage(sender:)"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "show1(sender:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
